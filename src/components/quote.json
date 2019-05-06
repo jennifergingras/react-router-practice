@@ -1,0 +1,36 @@
+[
+  {
+    "pageId": "design",
+    "quote": "The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with.",
+    "author": "Paul Rand",
+    "projectlist": [
+      "Poster",
+      "Book",
+      "Font",
+      "Visual System",
+      "Packaging"
+    ]
+  },
+  {
+    "pageId": "home",
+    "quote": "Designers are meant to be loved, not to be understood.",
+    "author": "Margaret Oscar"
+  },
+  {
+    "pageId": "web",
+    "quote": "Design is not just what it looks like and feels like. Design is how it works.",
+    "author": "Steve Jobs",
+    "projectlist": [
+      "JavaScript",
+      "Node.js",
+      "Database",
+      "App",
+      "React"
+    ]
+  },
+  {
+    "pageId": "about",
+    "quote": "You can't use up creativity. The more you use, the more you have.",
+    "author": "Maya Angelou"
+  }
+]
