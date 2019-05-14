@@ -15,8 +15,10 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Quote />
         <h2>About</h2>
+        <Quote
+          quote={API[3].quote}
+          author={API[3].author} />
       </div>
     );
   }
