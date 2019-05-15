@@ -5,10 +5,12 @@
     "author": "Paul Rand",
     "projectlist": [
       {
-        "title": "Poster"
+        "title": "Poster",
+        "url": "/poster"
       },
       {
-        "title": "Book"
+        "title": "Book",
+        "url": "/book"
       },
       {
         "title": "Font"

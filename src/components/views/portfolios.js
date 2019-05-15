@@ -5,26 +5,12 @@ import Quote from '../quote';
 import utilities from '../utilities/utilities';
 
 class Portfolios extends Component {
-
-
-
-  // // utility 
-  // pageStuff = API.find((obj) => {
-  //   return obj.pageId === this.props.match.path
-  // }
-
-  // call utility function 
-
-
-
-
-
   render() {
+    // use utility function - variable needs to be under render so that it can be displayed
     const pageStuff = utilities.getPage(this.props.match.path);
     console.log(this.props.match)
     return (
       <div>
-        {/* <h2>{match.params.pageId}</h2> */}
         < Quote
           quote={pageStuff.quote}
           author={pageStuff.author}
@@ -34,8 +20,9 @@ class Portfolios extends Component {
           <ul>
             <li>{pageStuff.projectlist.map((project, i) => (
               <Project key={i}
+              title={project.title}
                />
-            ))};
+            ))}
           </li>
           </ul>
         </div>
